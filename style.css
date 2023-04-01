@@ -1,0 +1,70 @@
+/*Développé par Benstitou Sofiane - libre d'utilisation et de redistribution (même commercial)*/
+/* Font : font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+body{
+    background-color: #00a8f3;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+/*-------- Header -------*/
+header{
+    padding-top: 40px;
+    padding-bottom: 24px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #141215;
+    text-align: center;
+}
+header img{
+    border-radius: 100%;
+}
+/*-----------------------*/
+/*------ Header/Na ------*/
+header nav ul li{
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+header nav ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    background-color: white;
+    color: #141215;
+    border-radius: 30px;
+    padding: 10px;
+}
+/*-----------------------*/
+
+/*------- Arcticle ------*/
+article{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 700px;
+    width: 100%;
+    background-color: #00a8f3;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    color: #141215;
+    border-radius: 30px;
+    padding: 10px;
+}
+/*-----------------------*/
+/*-------- Footer -------*/
+footer{
+    background-color: #141215;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+/*-----------------------*/
